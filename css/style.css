@@ -12,8 +12,6 @@ li {list-style-type: none;}
 
 .wrapper {
 	background-color: #fff;
-	height: 1080px;
-	width: 1921px;
 	border: 1px solid #000;
 	background-image: url(../img/background.png);
 	background-repeat: no-repeat;
@@ -23,11 +21,12 @@ p, a, li, h1, label, .forms{
 	font-family: 'helvetica_neueregular';
 }
 
-.header {
-		margin: 0px;
-		padding: 0;
-		width: 1920px;
-		background-color: #074d8a;	
+ .header {
+margin: 0px;
+padding: 0px;
+text-align: right;
+width: 100%;
+background-color: #074d8a;
 }
 
 ul .top-menu  {
@@ -69,7 +68,7 @@ li:nth-child(5) {
 	border-right: solid 1px #56a2dc;
 }
 li:first-child {
-	margin-left: 63%;
+	
 	text-align: left;
 }
 .mark {
@@ -80,8 +79,7 @@ a:hover .underline {
 }
 
 .content {
-	width: 560px;
-	height: 750px;
+	margin: 100px auto;
 	background: rgba(0,0,0,0.63);
 	margin: 160px 35%;
 	}
