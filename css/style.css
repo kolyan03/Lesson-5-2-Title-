@@ -6,11 +6,14 @@
 }
 
 body {
-	background-color: grey;		 	
+	background-color: grey;
+	 	
 }
 li {list-style-type: none;}
 
 .wrapper {
+	height: 1080px;
+	width: 1920px;
 	background-color: #fff;
 	border: 1px solid #000;
 	background-image: url(../img/background.png);
@@ -79,7 +82,8 @@ a:hover .underline {
 }
 
 .content {
-	margin: 100px auto;
+	width: 560px;
+    height: 750px;
 	background: rgba(0,0,0,0.63);
 	margin: 160px 35%;
 	}
@@ -110,7 +114,7 @@ hr {
 	border-bottom: solid 1px #484948;	
 }
 input[type="text"]::-webkit-input-placeholder { color: #ffffff; }
-.forms:hover {background-color: #1b5288;
+.forms:focus {background-color: #1b5288;
 border-bottom: solid 1px #689bcc;   
 box-shadow: 2px 2px 5px 5px rgba(27,82,136,0.75);
 }
